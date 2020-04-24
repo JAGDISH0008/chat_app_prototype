@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Client 1</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="./client.js"></script>
+        <link rel="stylesheet" href="./client.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "jumbotron">
+                <h2>Chat app</h2>
+                <h3 id = "name" style="text-align: center;"></h3><br>
+                <label for="">Message are:</label>
+                <br>
+                <label for="">Write Message</label>
+                <input type="text" class="form-control" placeholder="Write Message" id='input' > <br>
+                <label for="">Write Channel Name</label>
+                <input type="text" class="form-control" placeholder="Channel Name" id='channelinput'><br>
+                <button class="btn btn-primary" onclick="sendText()">Send</button><br><br>
+                <button class="btn btn-primary " onclick="Close()">Close</button><br><br>
+                <button class="btn btn-primary " onclick="messagesReceived()">Print Msgs</button>
+
+            </div>
+        </div>
+    </body>
+</html>
